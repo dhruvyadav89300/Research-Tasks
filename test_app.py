@@ -122,6 +122,7 @@ if st.session_state.initialized:
                 try:
                     streaming_response = st.session_state.query_engine.stream_chat(question)
                     response = ""
+                    # Fix this, the loop is not working as intended
                     for token in streaming_response.response_gen:
                         response += token
                         st.markdown(response + "▌")  
