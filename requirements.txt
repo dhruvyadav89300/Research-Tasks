@@ -4,6 +4,7 @@ EbookLib
 html2text
 llama-index-embeddings-huggingface
 llama-index-llms-groq
+llama-index-embeddings-openai
 
 streamlit
 langchain
