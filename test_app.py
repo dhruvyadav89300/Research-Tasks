@@ -127,12 +127,11 @@ if st.session_state.initialized:
                     response = ""
                     for token in streaming_response.response_gen:
                         response += token
-                        st.markdown(response + "▌")  # Simulate typing indicator
-                    st.markdown(response)  # Final response without indicator
+                        st.markdown(response + "▌")  
+                    st.markdown(response)  
                 except Exception as e:
                     st.error(f"Error during chat: {e}")
 else:
-    # Default Initialization (Optional: Can be removed if you want user to configure first)
     if not st.session_state.initialized:
         with st.spinner("Setting default configuration..."):
             try:
