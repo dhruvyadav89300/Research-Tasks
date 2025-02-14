@@ -163,3 +163,5 @@ cython_debug/
 
 
 .env
+
+AI NWS/Data Collection/gfs_1_week_data
