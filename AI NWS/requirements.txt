@@ -1,0 +1,7 @@
+pandas
+xarray
+wxee
+earthengine-api
+matplotlib
+cartopy
+netCDF4
