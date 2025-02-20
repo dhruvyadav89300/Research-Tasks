@@ -5,3 +5,5 @@ earthengine-api
 matplotlib
 cartopy
 netCDF4
+requests
+beautifulsoup4
